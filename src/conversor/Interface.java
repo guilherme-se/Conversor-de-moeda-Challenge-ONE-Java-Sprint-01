@@ -1,5 +1,6 @@
+package conversor;
+
 import javax.swing.*;
-import java.awt.*;
 
 public class Interface extends JFrame {
 
@@ -21,8 +22,7 @@ public class Interface extends JFrame {
         String tipoConvercao =  (String) JOptionPane.showInputDialog(null, "Escolha o tipo de conversão: ", "Moeda",
                 JOptionPane.PLAIN_MESSAGE, null, moedas, 0);
 
-        String Valor = JOptionPane.showInputDialog(null,"Escolha o valor para converver " + tipoConvercao + ":");
-
+        String valor = JOptionPane.showInputDialog(null,"Escolha o valor para converver " + tipoConvercao + ":");
 
 
     }
